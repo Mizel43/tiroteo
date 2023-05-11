@@ -183,7 +183,14 @@ input {
 }
 .produ{
   display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.produ1{
+  display: flex;
   margin:0 auto;
+  margin-bottom: 40px;
 }
 #order{
   margin-bottom: 30px;
@@ -191,4 +198,21 @@ input {
 .form_wrapper{
   margin-bottom: 30px;
 }
+.blue-text{
+  color: #118ab2;
+  font-weight: bold;
+}
+/* ---------------------------------------------- */
+/* -------------------- MEDIA ------------------- */
+/* ---------------------------------------------- */
+/* ===================== 500 ===================== */
+@media(max-width: 550px){
+  .form_wrapper{
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+
+
 #bootloader_IUX9NSD{height:42px;}.bootloader_IUX9NSD{display:block!important;}

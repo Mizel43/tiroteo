@@ -78,13 +78,18 @@ window.addEventListener("DOMContentLoaded", () => {
   var config = { childList: true, subtree: true };
   observer.observe(document.body, config);
   
+  
   // Получаем ссылку на элемент, к которому нужно переместить вьюпорт
 const element = document.getElementById('pic_scroll');
+// Выбираем все кнопки с классом scroll-btn
+const scrollBtns = document.querySelectorAll('.scroll-btn');
 
-// Обработчик клика на кнопку
-document.getElementById('scroll_btn').addEventListener('click', () => {
-  // Перемещаем вьюпорт к элементу
-  element.scrollIntoView({ behavior: 'smooth' });
+// Для каждой кнопки добавляем обработчик клика
+scrollBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    // Перемещаем вьюпорт к элементу
+    element.scrollIntoView({ behavior: 'smooth' });
+  });
 });
 
 });
