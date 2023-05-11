@@ -201,6 +201,18 @@ input {
 .blue-text{
   color: #118ab2;
   font-weight: bold;
+  cursor: pointer;
+}
+.b{
+  font-size: 18px;
+}
+.cdf{
+  width: 100%;
+  display: flex;
+  /* gap: 20px; */
+}
+blockquote.wp-block-quote{
+  padding: 0;
 }
 /* ---------------------------------------------- */
 /* -------------------- MEDIA ------------------- */
