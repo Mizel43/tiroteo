@@ -190,13 +190,14 @@ input {
 .produ1{
   display: flex;
   margin:0 auto;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 #order{
   margin-bottom: 30px;
 }
 .form_wrapper{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .blue-text{
   color: #118ab2;
@@ -211,8 +212,15 @@ input {
   display: flex;
   /* gap: 20px; */
 }
-blockquote.wp-block-quote{
-  padding: 0;
+hr {
+  border: none !important;
+  border-top: 3px solid black !important;
+}
+.article-section-title{
+  margin-top: 20px;
+}
+.post-thumbnail{
+  margin: 0;
 }
 /* ---------------------------------------------- */
 /* -------------------- MEDIA ------------------- */
